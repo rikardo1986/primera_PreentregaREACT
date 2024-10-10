@@ -1,8 +1,9 @@
-import { Card } from "../../common/card/Card";
+import "./listaStock.css";
+import { Card } from "../common/card/Card";
 
-export const ItemListContainer = () => {
+export const ListaStock = () => {
   return (
-    <div>
+    <div className="card-container">
       <Card title="HP" price={1200} stock={5} />
       <Card title="Lenovo" price={500} stock={15} />
       <Card title="Dell " price={111} stock={51} />
